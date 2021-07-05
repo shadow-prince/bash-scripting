@@ -1,12 +1,15 @@
+#!/bin/bash
+
 NAME="Sai Kishore"
 
 echo "Hello $NAME" # ==> Hello Sai Kishore
 
-echo $NAME 
+echo "$NAME" 
 echo "$NAME"
 echo "${NAME}!" # ==> Sai Kishore!
 
 echo "----------------- "
+
 string="string"
 if [[ -z "$string" ]]; then
   echo "String is empty"
@@ -16,22 +19,23 @@ fi
 
 echo "------------------"
 
-if [[ $name == "Sai" ]]; then
-  echo $name
+if [[ $NAME == "Sai" ]]; then
+  echo "$NAME"
 else 
   echo "Not Same"
 fi
 
 
 echo "Enter A : "
-read A
+read -r A
 echo "Enter B "
-read B
+read -r B
 
+echo "-------------"
 if [[ $A > $B ]]; then
   echo "$A is Greater"
 else 
   echo "$B is Greater"
 fi
 
-echo  "Sum of ${A} and ${B} is `expr $((A+B))` " 
+echo  "Sum of ${A} and ${B} is $((A+B)) " 

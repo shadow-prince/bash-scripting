@@ -12,7 +12,7 @@
          <th>Condition</th>
          <th>Description</th>
       </thead>
-      </tr>
+    
       <tbody>
          <tr>
             <td><code>[[ -z STRING ]]</code></td>

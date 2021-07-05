@@ -6,8 +6,8 @@
 
 <p>Note that <span><code> [[ </code></span> is actually a command/program that returns either <span><code>  0 (true) or 1 (false) </code></span>. Any program that obeys the same logic (like all base utils, such as  <span><code>grep(1)</code></span> or  <span><code>ping(1)</code></span> )  can be used as condition, see examples.</p>
 
-<center>
-   <table>
+ 
+<table>
       <thead>
          <th>Condition</th>
          <th>Description</th>
@@ -69,6 +69,5 @@
             <td>Numeric conditions</td>
          </tr>
       </tbody>
-   </table>
-</center>
+</table>
 

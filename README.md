@@ -1,2 +1,2 @@
-<h1  style="text-align: center;" > Bash Scripting </h1>
+<h1  align="center" > Bash Scripting </h1>
 

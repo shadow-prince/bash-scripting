@@ -20,6 +20,25 @@
 |[[ NUM -gt NUM ]]|Greater than|
 |[[ NUM -ge NUM ]]|Greater than or equal|
 |[[ STRING =~ STRING ]]|Regexp|
+|(( NUM < NUM ))|Numeric conditions|>
+
+
+<h1 style="color:purple; font-weight: 100;" >fUNCTIONS</h1>
+
+
+<p>Note that <code>[[</code> is actually a command/program that returns either <code>0</code> (true) or <code>1</code> (false). Any program that obeys the same logic (like all base utils, such as <code>grep(1)</code> or <code>ping(1)</code>) can be used as condition.</p>
+
+|Condition|Description|
+|--- |--- |
+|[[ -z STRING ]]|Empty string|
+|[[ -n STRING ]]|Not empty string|
+|[[ STRING == STRING ]]|Equal|
+|[[ STRING != STRING ]]|Not Equal|
+|[[ NUM -eq NUM ]]|Equal|
+|[[ NUM -ne NUM ]]|Not equal|
+|[[ NUM -lt NUM ]]|Less than|
+|[[ NUM -le NUM ]]|Less than or equal|
+|[[ NUM -gt NUM ]]|Greater than|
+|[[ NUM -ge NUM ]]|Greater than or equal|
+|[[ STRING =~ STRING ]]|Regexp|
 |(( NUM < NUM ))|Numeric conditions|
-
-

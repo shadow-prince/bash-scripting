@@ -23,7 +23,7 @@
 |(( NUM < NUM ))|Numeric conditions|>
 
 
-<h1 style="color:purple; font-weight: 100;" >fUNCTIONS</h1>
+<h1 style="color:purple; font-weight: 100;" >Functions</h1>
 
 
 <p>Note that <code>[[</code> is actually a command/program that returns either <code>0</code> (true) or <code>1</code> (false). Any program that obeys the same logic (like all base utils, such as <code>grep(1)</code> or <code>ping(1)</code>) can be used as condition.</p>

@@ -1,3 +1,6 @@
+
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/4927ed49e0b94d0882df9652caea6f1e)](https://app.codacy.com/gh/shadow-prince/bash-scripting?utm_source=github.com&utm_medium=referral&utm_content=shadow-prince/bash-scripting&utm_campaign=Badge_Grade_Settings)
+
 <h1  align="center"  style="color:purple; font-weight: 100;"> Bash Scripting </h1>
 
 
